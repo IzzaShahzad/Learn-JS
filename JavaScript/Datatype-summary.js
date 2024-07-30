@@ -35,3 +35,21 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
+
+//******************************************************************************** */
+//stack(primitive)
+//heap(non-primitive)
+let myname = "IzzahShahzad"
+let anothername = Sunshine
+console.log(anothername)
+console.log(myname)
+
+let user ={
+    email: "abc@gmail.com",
+    upi:"user@upi.com"
+}
+let newUser = user
+newUser.email = "ght@google.com"
+console.log(user.email);
+console.log(newUser.email);
+
