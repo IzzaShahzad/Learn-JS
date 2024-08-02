@@ -26,8 +26,8 @@ if (Object.keys(emptyObj).length === 0) {
 // Nullish Coalescing Operator (??): null undefined
 
 let val1;
-// val1 =53 ?? 7
-// val1 = null ?? 34
+// val1 = 15 ?? 10
+// val1 = null ?? 16
 // val1 = undefined ?? 75
 val1 = null ?? 10 ?? 20
 
@@ -37,7 +37,7 @@ console.log(val1);
 
 // Terniary Operator
 
-// condition ? true : false
+// condition ? true : false (basic syntax)
 
 const iceTeaPrice = 100
 iceTeaPrice <= 70 ? console.log("less than 70") : console.log("more than 70")
