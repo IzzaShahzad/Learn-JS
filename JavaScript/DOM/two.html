@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Learn</title>
+</head>
+<body style="background-color:#fafa92; color:#000000">
+    <h1>JS-Learn</h1>
+    <div class="parent">
+        <!-- Hello Sunshine! -->
+        <div class="fruits">Apple</div>
+        <div class="fruits">Mango</div>
+        <div class="fruits">Strawberry</div>
+        <div class="fruits">Grapes</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[2].innerHTML);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //      console.log(parent.children[i].innerHTML);
+        
+    // }
+    parent.children[2].style.color = "orange"
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const fruitOne = document.querySelector('.fruits')
+    // console.log(fruitOne);
+    // console.log(fruitOne.parentElement);
+    // console.log(fruitOne.nextElementSibling);
+
+    console.log("NODES: ", parent.childNodes);
+</script>
+</html>
